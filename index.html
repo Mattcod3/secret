@@ -194,7 +194,9 @@
     noBtn.addEventListener("click", () => {
   hoverSound.currentTime = 0;
   hoverSound.play();
-  noBtn.style.display = "none";
+
+  noBtn.innerText = "Try the other option 😉 We all feel like we are not ready but I know you are ready";
+  noBtn.disabled = true;
     });
 
     yesBtn.addEventListener("click", () => {
@@ -229,6 +231,7 @@
 
 </body>
 </html>
+
 
 
 
